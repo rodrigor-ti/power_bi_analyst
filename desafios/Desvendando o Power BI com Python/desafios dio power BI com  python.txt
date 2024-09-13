@@ -1,0 +1,28 @@
+
+
+
+
+https://app.powerbi.com/groups/me/reports/eb633a7a-1bb1-4505-98a6-0900c454c417/ReportSectionfec5356641e0bc8aa333?bookmarkGuid=8bf2b279-0b9c-48a1-be7d-80f901f97efb&bookmarkUsage=1&ctid=7d8e4d62-3169-483a-9e11-6de0124b9a8d&portalSessionId=e363bc85-374f-454f-800b-61198c745ac7&fromEntryPoint=export
+
+
+
+https://github.com/rodrigor-ti/power_bi_analyst/tree/main/desafios/Analisando%20dados%20de%20um%20Dashboard%20de%20Vendas%20no%20Power%20BI
+
+Publicação: https://app.powerbi.com/view?r=eyJrIjoiMmNiM2VlMTQtY2M5Ni00YTIzLWJjYTAtMDEzNjkwNmQ4YmY3IiwidCI6IjdkOGU0ZDYyLTMxNjktNDgzYS05ZTExLTZkZTAxMjRiOWE4ZCJ9&embedImagePlaceholder=true&pageName=ReportSectionfec5356641e0bc8aa333
+
+
+def identificar_termo_bi(termo):
+    if termo == "ETL":
+        return "Processo de extrair, transformar e carregar dados de diversas fontes."
+    elif termo == "Data Warehousing":
+        return "Armazenamento centralizado de dados para análise e relatórios."
+    elif termo == "Dashboard":
+        return "Ferramenta visual para monitoramento e análise de métricas."
+    elif termo == "Data Mining":
+        return "Processo de explorar grandes conjuntos de dados."
+    else:
+        return "Termo não reconhecido"
+
+entrada = input()
+
+print(identificar_termo_bi(entrada))
